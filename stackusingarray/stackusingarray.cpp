@@ -22,5 +22,17 @@ public:
 		top++;
 		stack_array[top] = element;
 		cout << endl;
+		cout << element << "Ditambahkan(pushed)." << endl;
+
+		return element;
+	}
+
+	void pop() {
+		if (empty()) {
+			cout << "\nStack Is Empty. Cannot POP." << endl;
+			return;
+		}
+		cout << "\nThe POPed Elemenet Is: " << stack_array[top] << endl;
+		top--;
 	}
 };
