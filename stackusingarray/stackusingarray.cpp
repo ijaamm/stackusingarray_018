@@ -51,3 +51,18 @@ public:
 		}
 	}
 };
+
+int main() {
+	program s;
+	
+	while (true) {
+		cout << endl;
+		cout << "\n***Stack Menu***\n";
+		cout << "1. Push\n";
+		cout << "2. POP\n";
+		cout << "3. Display\n";
+		cout << "4. Exit\n";
+		cout << "\nEnter Yout Choice: ";
+		
+	}
+}
