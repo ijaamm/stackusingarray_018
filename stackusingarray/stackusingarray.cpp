@@ -35,4 +35,10 @@ public:
 		cout << "\nThe POPed Elemenet Is: " << stack_array[top] << endl;
 		top--;
 	}
+
+	bool empty() {
+		return (top == -1);
+	}
+
+
 };
